@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from telegram.ext import Updater,CommandHandler
 
-updater = Updater("5109996998:AAGgIPrqTt64oGmPc9vClkil8VdVpUUnCps", workers=128)
+updater = Updater("<YOUR TOKEN>", workers=128)
 dispatcher = updater.dispatcher
 
 class Woiden:
